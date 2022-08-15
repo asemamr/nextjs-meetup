@@ -1,0 +1,40 @@
+.form {
+
+}
+.form>div {
+  display: flex;
+  flex-direction: column;
+}
+.form>div>label {
+  font-weight: bold;
+  color: rgb(88, 0, 0);
+}
+.form input {
+  margin-bottom: 7px;
+  height: 25px;
+}
+.form input,
+.form textarea {
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 4px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+.form textarea {
+  resize: none;
+}
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+}
+.form button {
+  align-self: end;
+  border: none;
+  background-color: #580000;
+  font-weight: bold;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+
+.card img {
+  max-width: 100%;
+  
+}
+.card h2 {
+  text-transform:capitalize;
+  text-align: center;
+}
+.address {
+  font-style: italic;
+}

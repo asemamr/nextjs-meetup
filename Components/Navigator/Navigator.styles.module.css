@@ -1,0 +1,39 @@
+.navigator {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  height: 60px;
+  background-color: rgb(168, 83, 83);
+  align-items: center;
+  color: white;
+  margin-bottom: 30px;
+}
+.navigator ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.navigator ul li a{
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.navigator ul li a:hover {
+  color: aqua;
+}
+.favorite-number {
+  display: inline-block;
+  background-color: #d39292;
+  width: 25px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+  
+
+}
+.navigator > div {
+  font-size: 20px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
